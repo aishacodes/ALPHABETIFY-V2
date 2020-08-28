@@ -1,0 +1,136 @@
+body {
+    background-color: #F0D2F8;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.heading {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin: 1rem 0;
+}
+
+.heading img {
+    width: 3rem;
+    height: 3rem;
+    background-size: cover;
+}
+
+.heading img:not(:first-child) {}
+
+.letters-pallete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+div {
+    display: flex;
+}
+
+:root {
+    font-size: 25px;
+}
+
+.red,
+.blue,
+.orange,
+.yellow,
+.brown,
+.purple,
+.green,
+.pink {
+    font-size: 3rem;
+    background-color: white;
+    font-weight: 900;
+    margin: .3rem;
+    border: 7px solid;
+}
+
+span {
+    width: 4rem;
+    height: 4rem;
+    box-shadow: 2px 2px 5px rebeccapurple;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px rgba(0, 0, 0, .7);
+}
+
+.red {
+    color: #FA120E;
+    border-color: #FA120E;
+}
+
+.blue {
+    color: #6466F9;
+    border-color: #6466F9;
+}
+
+.yellow {
+    color: #F2DC00;
+    border-color: #F2DC00;
+}
+
+.brown {
+    color: #CB9966;
+    border-color: #CB9966;
+}
+
+.orange {
+    color: #FF9900;
+    border-color: #FF9900;
+}
+
+.purple {
+    color: #9A00FF;
+    border-color: #9A00FF;
+}
+
+.green {
+    color: #33CC00;
+    border-color: #33CC00;
+}
+
+.pink {
+    color: #FF9A9D;
+    border-color: #FF9A9D;
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+p.bred {
+    background-color: #FA120E;
+    width: 100%;
+    height: 5px;
+}
+
+p.byellow {
+    background-color: #F2DC00;
+    width: 100%;
+    height: 5px;
+}
+
+p.bgreen {
+    background-color: #33CC00;
+    width: 100%;
+    height: 5px;
+}
+
+p.bblue {
+    background-color: #6466F9;
+    width: 100%;
+    height: 5px;
+}
