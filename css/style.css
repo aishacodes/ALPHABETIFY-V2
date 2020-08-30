@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    padding: .5rem 0;
 }
 
 * {
@@ -11,14 +12,13 @@ body {
 }
 
 .heading {
-    width: 100%;
+    width: 50%;
     display: flex;
     align-items: flex-end;
-    margin: 1rem 0;
 }
 
 .heading img {
-    width: 2.5rem;
+    width: 2.2rem;
     height: 2.5rem;
     background-size: cover;
 }

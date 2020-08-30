@@ -1,4 +1,6 @@
-let words = { a: 'Apple', b: 'Baseball', c: 'Clock', d: 'Donkey', e: 'Elephant', f: 'F' }
+let words = { a: 'Apple', b: 'Baseball', c: 'Clock', d: 'Donkey', e: 'Elephant', f: 'Father', g: 'Grandmother', h: 'Hungry', i: 'Internet', j: 'Justice', k: 'Kangaroo', l: 'London', m: 'Monkey', n: 'Norway', o: 'Overtime', p: 'Pilow', q: 'Question', r: 'Rabbit', s: 'Superman', t: 'Telephone', u: 'Underwear', v: 'Vaccinate', w: 'World-wide-web', x: 'Xylophone', y: 'Yogurt', z: 'Zebra' }
+
+
 const wordsEl = document.querySelector('.words')
 const letterEls = Array.from(document.querySelectorAll('span[data-key]'))
 
@@ -14,7 +16,7 @@ function playsound(e) {
 
     const letter = document.querySelector(`span[data-key=${key}]`)
     const audio = document.querySelector(`audio[data-key=${key}]`)
-
+    if (!audio) return
     letter.classList.add('active')
     removeActiveClass(key)
     audio.currentTime = 0
@@ -45,4 +47,3 @@ letterEls.forEach(letter => {
 })
 
 window.addEventListener('keydown', playsound)
-    // window.addEventListener('click', playsoundd)
