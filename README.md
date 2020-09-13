@@ -1,5 +1,5 @@
 # ALPHABETIFY-V2
-**An implementation of alphabet with HTML/CSS/Vanilla JS**
+**An implementation of alphabet sounds with HTML/CSS/Vanilla JS**
 
 ## Getting Started
 Clone or download this repository and run with a local server of open index.html with your favorite browser
@@ -9,6 +9,11 @@ Clone or download this repository and run with a local server of open index.html
 ## Preview
 
 ![Screenshot](media/Screenshot.png)
+
+## Features
+- Produce the sound of each letter and the corresponding words on click or keyboard press
+-Display the words that begin with the letter that was clicked
+
 ## Prequisite
 Your browser version must be recent for a better experience
 ## Built with
